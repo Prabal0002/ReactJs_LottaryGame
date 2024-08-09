@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Lottery.css";
-import  {genTicket , sum} from "./helper";
+import  {genTicket , sum} from "./helper.js";
 import"./Lottery.css";
 import Ticket from "./Ticket.jsx";
 
