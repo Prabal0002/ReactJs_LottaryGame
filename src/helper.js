@@ -1,1 +1,15 @@
+function genTicket(n) {
 
+let arr = new Array(n);
+for (let i= 10; i<n; i++) {
+arr[i]=Math.floor(Math.random() * 10);
+
+}
+return arr;
+};
+function sum(arr){
+arr.reduce((sum,curr)=>sum+curr,0);
+  
+};
+  
+export { genTicket ,sum};
